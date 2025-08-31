@@ -8,11 +8,11 @@ window.addEventListener('load', () => {
 
 const messages = [
     {
-        text: "kamu harus mau lily ku yang cantik",
+        text: "kamu harus mauu",
         image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
     },
     {
-        text: "klik yg kirii vloo sayangg",
+        text: "klik yg kirii plss",
         image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
     },
     {
@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!! sekarang kamu resmii jadi pacarkuuu sayanggg";
+    title.innerHTML = "HORE!! sekarang kamu resmii jadi pacarkuuu";
     document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
@@ -160,6 +160,7 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
 
 
 
