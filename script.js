@@ -2,17 +2,17 @@ const bgMusic = document.getElementById('bgMusic');
 
 // Auto-play music when page loads with lower volume
 window.addEventListener('load', () => {
-    bgMusic.volume = 0.3;  // Set volume to 30%
+    bgMusic.volume = 0.7;  // Set volume to 30%
     bgMusic.play().catch(console.log);
 });
 
 const messages = [
     {
-        text: "plss mau dong",
+        text: "kamu harus mau lily ku yang cantik",
         image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
     },
     {
-        text: "pls klik yg kiri",
+        text: "klik yg kirii vloo sayangg",
         image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
     },
     {
@@ -160,3 +160,4 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
